@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('data.csv', skipinitialspace=True, delimiter=",")
+df = pd.read_csv('data2.csv', skipinitialspace=True, delimiter=",")
 
 col = df.columns
 col = [i.replace(' ', '_').lower() for i in col]
